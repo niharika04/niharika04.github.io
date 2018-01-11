@@ -28,23 +28,28 @@ img {
 	height: 200px;
 	width:  200px;
 	float: left;
-	margin: 10px 20px 0px 20px;
+	margin: 30px 20px 0px 20px;
 }
 
 h1 {
-	margin-left: 7px;
+	margin-left: 12px;
+	margin-right: 12px;
 	padding: 20px;
 	color: #4aaaa5;
 	font-size: 24px; 
-	font font-family: "Georgia", Times, "Times New Roman", serif;
+	font-family: "Georgia", Times, "Times New Roman", serif;
 	font-weight: bold;
+	border-bottom: solid 2px #e8e8ee;
 }
 
 h2 {
 	padding: 20px;
+	border-bottom: solid 2px #e8e8ee;
+	margin-right: 12px;
+	margin-left: 12px;
 }
 #para {
-
+	margin-top: 20px;
 	margin-left: 20px;
 	width: 600px;
 	font-size: 15px;
@@ -68,6 +73,7 @@ h2 {
 }
 
 .sidebar {
+	position: relative;
 	width: 270px;
 	background: #ffffff;
 	float: left;
@@ -77,32 +83,68 @@ h2 {
 	color: #4aaaa5;
 	font-size: 18px;
 	font-weight: bold;
+}
+
+.links{
+
+	display: inline;
+}
+.icon {
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	top: 50px;
+	left: 3px;
 
 }
+.linkedin {
+	position: absolute;
+	width: 64px;
+	height:64px;
+	top: 50px;
+	left:83px;
+}
+ 
+.overflow {
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	
+	top: 53px;
+	left: 165px;
+}
+
 li {
 	display: inline;
-	padding-top: 20px;
 	
-	
-
 }
 
 ul{
+	
 	width : 200px;
-	float: right;
+	margin-left: 505px;
 	display: inline;
-	padding-top: 10px;
+	
 	margin-right:320px;
 	font-size: 15px;
-	font-weight: bold;
 	
 	
-}
+	}
 
 a{
-	color: #777777;	
+	color: #777777;
+	padding-left: 13px;
+	padding-right: 13px;
+	display: inline;
+	text-decoration: none;
+	width: 50px;	
+	
 }
 
+#navBar {
+	padding: 12px;
+
+}
 
 .footer {
   	position: absolute;
@@ -113,4 +155,8 @@ a{
   	background-color: #666666;
   	text-align: center;
   	color: white;
+  	border-top: solid 6px #4aaaa5;
 }
+
+
+
