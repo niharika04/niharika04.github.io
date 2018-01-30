@@ -225,7 +225,7 @@ input[type=submit] {
 	border: 0 none;
 }
 
-@media screen and (max-width: 980px) {
+/*@media screen and (max-width: 980px) {
 	
 	body {
 		max-width: 980px;
@@ -267,7 +267,7 @@ input[type=submit] {
 	}
 }
 
-
+*/
 /*@media screen and (max-width: 768px) {
 	.wrapper {
 		width: 768px;
